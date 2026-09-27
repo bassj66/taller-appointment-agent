@@ -1,0 +1,24 @@
+{
+  "name": "taller-appointment-agent",
+  "version": "1.0.0",
+  "description": "AI booking agent for a car workshop: prices, availability, bookings and cancellations via Claude tool use, with an offline demo mode.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ai-agent",
+    "claude",
+    "tool-use",
+    "appointments",
+    "workshop",
+    "nodejs"
+  ],
+  "author": "bassj66",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.12"
+  }
+}
